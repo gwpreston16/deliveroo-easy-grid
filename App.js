@@ -8,19 +8,19 @@ function App() {
   return (
     <NativeBaseProvider>
       <Grid>
-        <Row style={styles.row1}>
-          <Center flex={1}>
+        <Row style={ styles.row1 }>
+          <Center flex={ 1 }>
             <Image source={ pizzaImage } style={ styles.image } />
           </Center>
         </Row>
-        <Row style={styles.row2}>
-          <Center flex={1}>
+        <Row style={ styles.row2 }>
+          <Center flex={ 1 }>
             <Heading size="xl">Mario's Pizza</Heading>
             <Text size="lg">The best pizza in Belfast</Text>
           </Center>
         </Row>
-        <Row style={styles.row3}>
-          <Center flex={1}>
+        <Row style={ styles.row3 }>
+          <Center flex={ 1 }>
             <Input
               placeholder='Email address'
               style={ styles.textBox }
